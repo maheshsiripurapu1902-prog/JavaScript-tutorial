@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1 id="demo">good moring</h1>
+    <button onclick="changeContent()">change</button>
     <script>
 
 var name="welcome to javascript";
@@ -13,6 +16,36 @@ var age=33;
 
 console.log(name);
 console.log(age);
+
+// using function add three number
+function addThreeNumbers(a,b,c){
+
+    return a+b+c;
+}
+
+let ans=addThreeNumbers(20,50,70);
+console.log(ans);
+
+
+
+
+
+console.log("java script first application");
+
+
+document.write("<br><br>"+"good morning");
+window.alert("welcome to javascript");
+
+
+
+function changeContent(){
+
+    document.getElementById("demo").style.color="red";
+    document.getElementById("demo").textContent="welcome to javascript";
+}
+
+
+
 
     </script>
 </body>
